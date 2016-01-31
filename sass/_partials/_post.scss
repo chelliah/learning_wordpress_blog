@@ -1,0 +1,23 @@
+@import "../_utilities/_variables.scss";
+
+.post{
+  width: 80%;
+  margin: 15px auto 0 auto;
+  border-bottom: 1px solid $grey;
+
+  &:last-of-type{
+    border-bottom: none;
+  }
+  .post-title{
+    text-decoration: none;
+    color: $black;
+    font-size: 24px;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  .post-content{
+    font-weight: 100;
+  }
+}

@@ -1,0 +1,15 @@
+/*
+learning wordpress: aron_theme_01;
+Author: Aron Thomas;
+Author URI: www.aronthomas.com;
+Version: 1.0;
+*/
+
+@import '_partials/post';
+@import '_partials/header';
+@import '_partials/footer';
+
+html,body{
+	margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+}
